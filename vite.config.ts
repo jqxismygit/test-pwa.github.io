@@ -9,7 +9,13 @@ export default defineConfig({
       registerType: 'autoUpdate',
       devOptions: {
         enabled: true
-      }
+      },
+      manifest: {
+        name: '我的PWA应用',
+        short_name: 'My App',
+        theme_color: '#ffffff',
+        "start_url": "/",
+      },
     })
   ],
 })
